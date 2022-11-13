@@ -1,0 +1,342 @@
+
+:root{
+	--main-font: 'Poppins', sans-serif;
+	--main-heading1-color: #000;
+    --main-heading2-color: #263238;
+	--main-text-color: #8F95A5;
+	--first-button-color: #263238;
+	--section-dark-background: #F5F5F5;
+}
+
+
+.link {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ul{
+	padding-left: 0;
+    list-style: none;
+}
+img{
+	display: block;
+}
+
+body{
+	font-family: var(--main-font);
+	color: var(--main-text-color);
+	font-size: 20px;
+	letter-spacing: 0.03em;
+	background-color: #ffffff;
+}
+
+/* для приховання заголовків */
+.hide {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	-webkit-clip-path: inset(50%);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	word-wrap: normal !important;
+}
+
+.container{
+	width: 1380px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	/* outline: 2px solid teal; */
+}
+
+.section{
+    margin-bottom: 180px;
+}
+
+/* header */
+
+.header {
+}
+.header-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    
+}
+.container {
+}
+.header-nav {
+    display: flex;
+}
+.header-logo {
+    font-size: 36px;
+    line-height: calc(54 / 36);
+    color: var(--main-heading1-color);
+    margin-right: 236px;
+}
+
+.logo2{
+    color: #939393;
+
+}
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-right: 120px;
+    flex-shrink: 0;
+}
+.header-item {
+}
+.header-link {
+    font-weight: 500;
+    line-height: calc(30 / 20);
+    color: var(--first-button-color);
+}
+.header-btn {
+    display: inline-block;
+    min-width: 312px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #263238;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: var(--main-heading1-color);
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: calc(30 / 20);
+    text-align: center; 
+}
+
+
+/* hero */
+
+.hero {
+}
+.hero-div {
+    display: flex;
+}
+.hero-section {
+    margin-right: 144px;
+}
+.hero-title {
+    width: 386px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: calc(80 / 64);
+    color: var(--main-heading1-color);
+    margin-bottom: 40px;
+}
+.hero-text {
+    font-size: 24px;
+    line-height: calc(36 / 24);
+    color: var(--main-text-color);
+    margin-bottom: 60px;
+}
+.hero-btn {
+    min-width: 426px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    border-radius: 10px;
+    background-color: var(--first-button-color);
+    color: var(--section-dark-background);
+    font-size: 36px;
+    line-height: calc(54 / 36);
+    cursor: pointer;
+}
+
+/* skills */
+
+.skills {
+}
+.skills-title {
+    text-align: center;
+    margin-bottom: 58px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    color: var(--main-heading1-color);
+}
+.skills-list {
+    display: flex;
+	gap: 30px;
+}
+.skills-item {
+    padding-top: 32px;
+    padding-left: 18px;
+    background-color: var(--section-dark-background);
+    border-radius: 10px;
+}
+
+.skille-subtetle {
+    margin-top: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: calc(45 / 30);
+
+    color: var(--main-heading2-color);
+}
+.skills-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #8F95A5;
+    margin-bottom: 20px;
+    margin-right: 61px;
+}
+.skille-text2 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #8F95A5;
+    margin-right: 61px;
+    margin-bottom: 30px;
+}
+.skills-link {
+    display: inline-block;
+    justify-content: center;
+    padding: 17px 63px;
+    background: var(--main-heading2-color);
+    border-radius: 10px;
+    color: var(--section-dark-background)
+}
+
+/* about */
+
+.about {
+}
+.about-div{
+    display: flex;
+}
+
+.about-first-part {
+    margin-right: 146px;
+}
+.about-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: calc(72 / 48);
+    color: var(--main-heading1-color);
+    margin-bottom: 60px;
+}
+.about-text {
+    line-height: calc(36 / 20);
+    color: #8F95A5;
+    margin-bottom: 30px;
+
+}
+.about-list {
+    display: flex;
+    flex-direction: row;
+    gap: 131px;
+    margin-left: 49px;
+}
+.about-item {
+    text-align: center;
+
+}
+
+.about-number{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: var(--main-heading2-color);
+    margin-bottom: 6px;
+}
+
+.about-letter{
+    line-height: calc(36 / 20);
+    color: var(--main-text-color);
+}
+
+
+/* pricing */
+
+.pricing {
+}
+.pricing-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: calc(72 / 48);
+    color: var(--main-heading1-color);
+    margin-bottom: 60px;
+}
+.pricing-list {
+    display: flex;
+    gap: 30px;
+}
+
+.pricing-item {
+}
+.pricing-subtitle {
+    margin-top: 31px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: calc(48 / 30);
+    text-transform: capitalize;
+    color: var(--main-heading2-color);
+}
+.pricing-text {
+    line-height: calc(30 / 20);
+    color: var(--main-text-color);
+    margin-bottom: 30px;
+}
+.pricing-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--section-dark-background);
+    max-width: 260px;
+    height: 45px;
+}
+.price {
+    font-size: 24px;
+    line-height: calc(36 / 24);
+    color: var(--main-heading2-color)
+}
+.period {
+    font-size: 18px;
+    line-height: calc(27 / 18);
+    color: #546269;
+}
+
+/* contacts */
+
+.contact {
+}
+.contact-div {
+    display: flex;
+}
+
+.contact-div2 {
+    margin-left: 144px;
+
+}
+
+.contact-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: calc(72 / 48);
+    color: var(--main-heading1-color);
+    margin-bottom: 60px;
+
+}
+.contact-text {
+    line-height: calc(30 / 20);
+    color: var(--main-text-color);
+    margin-bottom: 30px;
+}
